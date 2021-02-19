@@ -25,3 +25,9 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+# This application depends on rest api that should provide the following domain:
+{ id: string, name: string, active: boolean, dateOfBirth: string }
+The api call is by default using http://localhost:8080, but this can be override by changing the 
+server and port on the properties file.
+ 
